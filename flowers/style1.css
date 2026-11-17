@@ -1,0 +1,841 @@
+/*ilk resim*/
+.flower {
+    width: 100%;
+    height: 700px;
+}
+
+/*yazi */
+.yazi1 {
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    color: #656059;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*home menu*/
+.nav-home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #332522;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #332522;
+    position: absolute;
+    top: 40px;
+    left: 520px;
+}
+
+/*birinci menu*/
+.fiil {
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    z-index: 10;
+}
+
+.fiil1 {
+    background: transparent;
+    border: none;
+    color: #332522;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.fiil-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #F8F1E7;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 11;
+}
+
+.fiil-content a {
+    display: block;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.fiil-content a:hover {
+    background-color: #E8DCCB;
+}
+
+.fiil:hover .fiil-content {
+    display: block;
+}
+
+/*ikini menu*/
+.fiil2 {
+    position: absolute;
+    top: 30px;
+    left: 740px;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.fiil3 {
+    background: transparent;
+    border: none;
+    color: #332522;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.fiil-contentt {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F8F1E7;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 11;
+}
+
+.fiil-contentt a {
+    display: block;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.fiil-contentt a:hover {
+    background-color: #E8DCCB;
+}
+
+.fiil2:hover .fiil-contentt {
+    display: block;
+}
+
+/*ucuncu menu*/
+.fiil4 {
+    position: absolute;
+    top: 30px;
+    left: 798px;
+    z-index: 10;
+}
+
+.fiil5 {
+    background: transparent;
+    border: none;
+    color: #332522;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.fiil-contenttt {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #F8F1E7;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 11;
+}
+
+.fiil-contenttt a {
+    display: block;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.fiil-contenttt a:hover {
+    background-color: #E8DCCB;
+}
+
+.fiil4:hover .fiil-contenttt {
+    display: block;
+}
+
+/*h5 yazisi*/
+.onemli {
+    position: absolute;
+    top: 150px;
+    left: 165px;
+    color: lightpink;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*paragraf*/
+.paragraf {
+    position: absolute;
+    top: 418px;
+    left: 165px;
+    color: #656059;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ilk buton*/
+.button {
+    position: absolute;
+    top: 585px;
+    left: 320px;
+    transform: translate(-50%, -50%);
+    color: #656059;
+    font-size: 30px;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border: 2px solid rgb(226, 168, 176);
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: lightpink;
+    transition: all 0.3s ease;
+}
+
+/* Hover efekti */
+.button:hover {
+    background-color: deeppink;
+    color: white;
+    border-color: deeppink;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+
+/*ilk menu*/
+.logo {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #656059;
+    text-decoration: none;
+    margin-right: 40px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hala {
+    color: #333;
+    position: absolute;
+    left: 1570px;
+    top: 45px;
+    font-size: 30px;
+}
+
+
+body {
+    margin: 0;
+}
+
+.reveal {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-color: #f5f0e8;
+}
+
+.reveal-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+
+    -webkit-mask-image: radial-gradient(circle 200px at var(--x, -300px) var(--y, -300px),
+            black 0%,
+            black 60%,
+            transparent 100%);
+
+    mask-image: radial-gradient(circle 200px at var(--x, -300px) var(--y, -300px),
+            black 0%,
+            black 60%,
+            transparent 100%);
+}
+
+/* İkinci icon için */
+.farkli {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    z-index: 1;
+    top: 29px;
+    right: -260px;
+    transition: transform 0.3s ease;
+}
+
+.farkli::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: lightpink;
+    border-radius: 50%;
+    z-index: -1;
+    transition: background-color 0.3s ease;
+}
+
+.farkli i {
+    position: relative;
+    color: #333;
+    font-size: 32px;
+    transition: color 0.3s ease;
+}
+
+/* Hover efekti */
+.farkli:hover {
+    transform: scale(1.1);
+}
+
+.farkli:hover::before {
+    background-color: deeppink;
+}
+
+
+/*iconun altindaki yazi1*/
+.farkli1 {
+    position: relative;
+    color: #333;
+    right: -245px;
+    font-size: 23px;
+}
+
+/*cizgi1*/
+.dikey1 {
+    position: absolute;
+    width: 100px;
+    transform: rotate(90deg);
+    top: 790px;
+    left: 380px;
+
+}
+
+
+
+/*ucuncu icon icin*/
+.farkli2 {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    z-index: 1;
+    top: -160px;
+    right: -530px;
+}
+
+.farkli2::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: lightpink;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.farkli2 i {
+    position: relative;
+    color: #333;
+    font-size: 32px;
+
+}
+.farkli2:hover {
+    transform: scale(1.1);
+}
+
+.farkli2:hover::before {
+    background-color: deeppink;
+}
+
+/*iconun altindaki yazi2*/
+.farkli3 {
+    position: relative;
+    color: #333;
+    right: -515px;
+    font-size: 23px;
+    top: -185px;
+}
+
+
+/*cizgi2*/
+.dikey2 {
+    position: absolute;
+    width: 100px;
+    transform: rotate(90deg);
+    top: 790px;
+    left: 650px;
+
+}
+
+/*dorduncu icon icin*/
+.farkli4 {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    z-index: 1;
+    top: -350px;
+    right: -793px;
+}
+
+.farkli4::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: lightpink;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.farkli4 i {
+    position: relative;
+    color: #333;
+    font-size: 32px;
+
+}
+.farkli4:hover {
+    transform: scale(1.1);
+}
+
+.farkli4:hover::before {
+    background-color: deeppink;
+}
+
+/*iconun altindaki yazi3*/
+.farkli5 {
+    position: relative;
+    color: #333;
+    right: -770px;
+    font-size: 23px;
+    top: -375px;
+}
+
+/*cizgi3*/
+.dikey3 {
+    position: absolute;
+    width: 100px;
+    transform: rotate(90deg);
+    top: 790px;
+    left: 910px;
+
+}
+
+/*dorduncu icon icin*/
+.farkli6 {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    z-index: 1;
+    top: -538px;
+    right: -1053px;
+}
+
+.farkli6::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: lightpink;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.farkli6 i {
+    position: relative;
+    color: #333;
+    font-size: 32px;
+
+}
+/* Hover efekti */
+.farkli6:hover {
+    transform: scale(1.1);
+}
+
+.farkli6:hover::before {
+    background-color: deeppink;
+}
+
+
+
+/*iconun altindaki yazi4*/
+.farkli7 {
+    position: relative;
+    color: #333;
+    right: -1044px;
+    font-size: 23px;
+    top: -565px;
+}
+
+/*cizgi4*/
+.dikey4 {
+    position: absolute;
+    width: 100px;
+    transform: rotate(90deg);
+    top: 790px;
+    left: 1170px;
+
+}
+
+/*besinci icon icin*/
+.farkli8 {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    z-index: 1;
+    top: -729px;
+    right: -1310px;
+    transition: 0.3s ease;
+}
+
+.farkli8::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: lightpink;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+
+.farkli8 i {
+    position: relative;
+    color: #333;
+    font-size: 32px;
+    transition: 0.3s ease;
+}
+
+/* Hover efekti */
+.farkli8:hover {
+    transform: scale(1.1);
+}
+
+.farkli8:hover::before {
+    background-color: deeppink;
+}
+
+
+
+
+/*iconun altindaki yazi4*/
+.farkli9 {
+    position: relative;
+    color: #333;
+    right: -1280px;
+    font-size: 23px;
+    top: -748px;
+}
+
+/*ikinci sayfa*/
+.onemli2 {
+    position: relative;
+    color: lightpink;
+    font-size: 23px;
+    top: -573px;
+    left: 142px;
+}
+
+/*ikinci sayfa yazi 2*/
+.yazi2 {
+    position: absolute;
+    top: 1045px;
+    left: 140px;
+    color: #656059;
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ikinci sayfa yazi paragraf*/
+.paragraf1 {
+    position: absolute;
+    top: 1190px;
+    left: 140px;
+    color: #656059;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*ilk urun karti*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+.product-card {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(190, 120, 140, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, sans-serif;
+    margin-top: -700px;
+    margin-left: 755px;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(190, 120, 140, 0.2);
+}
+
+.product-image {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    background: #fff0f4;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.favorite-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #d87591;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #ffffff;
+    color: #c76783;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.product-info {
+    padding: 22px;
+}
+
+.product-category {
+    color: #c77c91;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.product-info h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #3d3034;
+    margin: 0 0 10px;
+}
+
+.product-description {
+    color: #8e8085;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.product-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.product-price {
+    color: #bd617d;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+
+.add-to-cart {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #d9829b;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    margin-left: 222px;
+    margin-top: -70px;
+}
+
+.add-to-cart:hover {
+    background: #bd617d;
+}
+
+.cart-icon {
+    font-size: 22px;
+    line-height: 1;
+}
+
+/* ikinci urun karti*/
+* {
+    box-sizing: border-box;
+}
+
+.flower-product {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(190, 120, 140, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, sans-serif;
+    margin-top: -400px;
+    margin-left: 1155px;
+}
+
+/* Kartın üzerine gelindiğinde */
+.flower-product:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(190, 120, 140, 0.2);
+}
+
+/* Çiçek fotoğrafı */
+.flower-photo {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    background: #fff0f4;
+}
+
+.flower-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.flower-product:hover .flower-photo img {
+    transform: scale(1.05);
+}
+
+/* Favori butonu */
+.flower-favorite {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #d87591;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Ürün bilgileri */
+.flower-details {
+    padding: 22px;
+}
+
+/* Ürün adı */
+.flower-name {
+    font-size: 19px;
+    font-weight: 500;
+    color: #3d3034;
+    margin: 0 0 10px;
+}
+
+/* Fiyat alanı */
+.flower-purchase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+/* Ürün fiyatı */
+.flower-price {
+    color: #bd617d;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Sepete ekle butonu */
+.flower-cart {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #d9829b;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 222px;
+    margin-top: -70px;
+}
+
+/* Butonun üzerine gelindiğinde */
+.flower-cart:hover {
+    background: #bd617d;
+}
+
+/* Sepet ikonu */
+.flower-cart-icon {
+    font-size: 22px;
+    line-height: 1;
+}
